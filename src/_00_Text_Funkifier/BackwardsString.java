@@ -11,7 +11,7 @@ public class BackwardsString extends SpecialString {
 		char charr = 0;
 		String a = "";
 			for(int i = s.length()-1; i >= 0; i--) {
-				charr += s.charAt(i);
+				charr = s.charAt(i);
 				a += charr;
 			}
 		return a;

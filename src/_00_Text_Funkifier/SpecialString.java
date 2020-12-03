@@ -10,4 +10,14 @@ public abstract class SpecialString implements TextFunkifier{
 	public String toString() {
 		return s;
 	}
+	//@Override
+	//public String funkifyText(String s) {
+	//String str = "";
+	//for(int i = s.length(); i > 0; i++) {
+	//	str += s.charAt(i);
+	//}
+	
+	//return str;
+		
+	//}
 }
