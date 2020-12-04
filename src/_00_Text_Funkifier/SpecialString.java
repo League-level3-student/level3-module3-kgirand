@@ -1,5 +1,7 @@
 package _00_Text_Funkifier;
 
+import static org.junit.Assert.assertEquals;
+
 public abstract class SpecialString implements TextFunkifier{
 	protected String s;
 	
@@ -10,14 +12,18 @@ public abstract class SpecialString implements TextFunkifier{
 	public String toString() {
 		return s;
 	}
-	//@Override
-	//public String funkifyText(String s) {
-	//String str = "";
-	//for(int i = s.length(); i > 0; i++) {
-	//	str += s.charAt(i);
-	//}
 	
-	//return str;
-		
+	
+	//private String SpecialString1(String string) {
+	//	char charr = 0;
+	//	String strr = "";
+	//	for(int i = 0; i <= string.length()-1; i++) {
+	//		charr = string.charAt(i);
+	//		strr+=charr;
+	//	}
+	//	return strr;
 	//}
+
+
+	//protected abstract String SpecialString(String string);
 }

@@ -37,21 +37,14 @@ public class _00_TestSpecialString {
 	//   new String you want. Then use the assertEquals method in
 	//   the JUnitTest case below to test your customized Special String.
 	@Test
-	public void testCustomString() {
-		SpecialString cs = CustomString("tset a si sihT");
-		System.out.println(cs);
-		assertEquals("This is a text", cs.toString());
-	}
+	
 
-	private SpecialString CustomString(String string) {
-		// TODO Auto-generated method stub
-		String str = "";
-		for(int i = string.length(); i > 0; i++) {
-			str += string.charAt(i);
-		}
-		
-		return str;
+	public void testSpecialString() {
+		IndexString special = new IndexString("Thisisatest");
+		System.out.println(special);
+		assertEquals("012345678910", special.toString());
 	}
-
+	
+	
 	
 }
